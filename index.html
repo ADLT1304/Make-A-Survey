@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    
+        <style>
+            input[type=text] {
+                color: blue;
+            }
+            input[type=email] {
+                color:blue;
+            }
+
+            input[type=submit] {
+                color: red;
+            }
+    
+            textarea {
+                color: blue;
+            }
+
+
+            
+        </style>
+    
+    </head>
+    <body>
+    
+        <fieldset>
+            
+            <legend>About You</legend>
+            
+            <label for="username">User Name:</label>
+            <br><input type="text" placeholder="Enter your user name..." required>
+            <br><label for="email">Email:</label>
+            <br><input type="email" placeholder="Enter your email..." required>
+            <br><label for="comment">Tell us about you:</label>
+            <br><textarea placeholder="Enter your text here..."></textarea>
+            
+        </fieldset>   
+        
+        <fieldset>
+            <legend>Questionare</legend>
+            <label for="Question1">Do you have any STD's?</label>
+            <br>
+            <input type="checkbox" name="doyouenjoytakingsurveys-1"><label>HIV/AIDS</label>
+            <input type="checkbox" name="doyouenjoytakingsurveys-2"><label>Chlamydia</label>
+            <input type="checkbox" name="doyouenjoytakingsurveys-3"><label>Herpes</label>
+            <input type="checkbox" name="doyouenjoytakingsurveys-4"><label>Gonorrhea</label>
+            <input type="checkbox" name="doyouenjoytakingsurveys-5"><label>Other/Others</label>
+            <br><label for="Question1">Do you love life?</label>
+            <br><input type="radio" name="doyoulovelife-yes"><label>Yes!</label>
+            <input type="radio" name="doyoulovelife-sometimes" checked><label>Sometimes</label>
+            <input type="radio" name="doyoulovelife-no"><label>No!</label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Today's Date and Time</legend>
+    
+            <label>Today's Date:</label>
+            <br>
+            <input type="date">
+            <br>
+            <label>
+            <br>
+            <input type="time">
+            <br>
+            <br><input type="submit" value="Submit Survey">
+        </fieldset>
+
+</body>
+</html>
